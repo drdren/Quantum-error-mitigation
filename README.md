@@ -9,6 +9,22 @@ Quantum computing hardware in the noisy intermediate-scale quantum (NISQ) era is
 
 Zero-Noise Extrapolation is a popular quantum error mitigation technique that involves performing a set of quantum computations that purposefully scale-up the noise so as to then extrapolate the value of an observable in the zero-noise limit. 
 
+**Contents of this GitHub repository:**
+
+1. Folding_Global.ipynb - this implements Global/Circuit folding for Circuit #1, which is a randomly generated quantum circuit that guarantees the sole result is |0>
+2. Folding_Local.ipynb  - this implements Local/Gate folding for Circuit #2, which is manually-created randomly generated quantum circuit. One of its results is |0>
+3. Zero_noise_extrapolation__ZNE_.pdf
+4. ZNE_circuit_folding.png - This is a result of the Global/Circuit folding ZNE
+5. ZNE_gate_folding.png - This is a result of the Local/Gate folding ZNE
+
+**Getting started guide**
+1. Open Folding_Global.ipynb or Folding_Local.ipynb on your local machine. I recommend that you use a virtual environment. I used Python 3.12 and Qiskit 1.0.2. A list of package versions is at the bottom of this readme.md
+2. Run the Jupyter notebook cells sequentially from the top. There is a table of contents, section headings, and comments throughout the notebook.
+3. The final cells create the figures to compare the noisy data against the noiseless data and the extrapolates
+4. There is an introductory .pdf regarding the theory of zero-noise extrapolation called Zero_noise_extrapolation__ZNE_.pdf
+5. To the best of my knowledge, I have listed all packages that I used below. It is possible that I missed one and that causes the notebook(s) to not run when you try. I apologise for that and I am happy to work with you to figure out which package(s) I did not list.
+6. Owing to the noisy nature of the gates and the probabilistic nature of these noisy simulations, it is possible that you cannot exactly reproduce my figures. 
+
 **Result of global/circuit-based ZNE**:
 
 ![ZNE](https://github.com/drdren/Quantum-error-mitigation/assets/104710745/395043c2-a915-4809-b5d9-f03db0d181bc)
@@ -20,14 +36,6 @@ Using linear, Richardson, and exponential extrapolation.
 ![ZNE_gate_folding](https://github.com/drdren/Quantum-error-mitigation/assets/104710745/7a899f74-0c74-4e90-8d15-4f3cdd06de75)
 
 Using linear, Richardson, and exponential extrapolation. 
-
-**Contents of this GitHub repository:**
-
-1. Folding_Global.ipynb
-2. Folding_Local.ipynb
-3. Zero_noise_extrapolation__ZNE_.pdf
-4. ZNE_circuit_folding.png
-5. ZNE_gate_folding.png
 
 **Installation guide**
 
