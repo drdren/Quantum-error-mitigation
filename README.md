@@ -38,6 +38,7 @@ pip install qiskit-aer
 pip install matplotlib
 pip install numpy
 pip install scipy
+pip install qiskit-experiments
 ```
 5. To open Jupyter Notebook for running and developing the code, type in Conda prompt:
 ```conda
