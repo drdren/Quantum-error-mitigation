@@ -67,6 +67,7 @@ numpy                     1.26.4
 pip                       23.3.1
 qiskit                    1.0.2
 qiskit-aer                0.13.3
+qiskit-experiments        0.6.0
 qiskit-ibm-runtime        0.22.0
 qtconsole                 5.5.1
 rustworkx                 0.14.2
