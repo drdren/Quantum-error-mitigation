@@ -9,10 +9,25 @@ Quantum computing hardware in the noisy intermediate-scale quantum (NISQ) era is
 
 Zero-Noise Extrapolation is a popular quantum error mitigation technique that involves performing a set of quantum computations that purposefully scale-up the noise so as to then extrapolate the value of an observable in the zero-noise limit. 
 
+**Result of global/circuit-based ZNE**:
+
+![ZNE](https://github.com/drdren/Quantum-error-mitigation/assets/104710745/395043c2-a915-4809-b5d9-f03db0d181bc)
+
+Using linear, Richardson, and exponential extrapolation. 
+
+**Result of local/gate-based ZNE**:
+
+![ZNE_gate_folding](https://github.com/drdren/Quantum-error-mitigation/assets/104710745/7a899f74-0c74-4e90-8d15-4f3cdd06de75)
+
+Using linear, Richardson, and exponential extrapolation. 
+
 **Contents of this GitHub repository:**
 
-1. 
-2. 
+1. Folding_Global.ipynb
+2. Folding_Local.ipynb
+3. Zero_noise_extrapolation__ZNE_.pdf
+4. ZNE_circuit_folding.png
+5. ZNE_gate_folding.png
 
 **Installation guide**
 
